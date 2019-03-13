@@ -510,7 +510,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMessage, WPARAM
 				I_bullet.emplace_back(&Item[0]);
 			if (ItemTimeCount % 4200 == 0)
 				I_sub.emplace_back(&Item[1]);
-			if (ItemTimeCount % 22800 == 0)
+			if (ItemTimeCount % 8300 == 0)
 				I_sheild.emplace_back(&Item[4]);
 
 			ItemMove();
